@@ -2,7 +2,7 @@ with import <nixpkgs> {};
 #{ stdenv, buildGoModule, fetchFromGitHub }:
 buildGoModule rec {
   name = "mqtt2prom";
-  version = "1.0.1";
+  version = "1.0.2";
   src = fetchFromGitHub {
     owner = "jiphex";
     repo = name;
